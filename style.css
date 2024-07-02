@@ -1,8 +1,53 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+ font-family: "Anton SC", sans-serif;
+        
+      
 }
 
 
+.left {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-image: url(image1.jpg);
+    background-size:cover;
+}
 
+.right {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    background-color: blue;
+    background-image:url(image.jpg) ;
+    background-size: cover;
+}
+
+.left .overlay{
+    height:100% ;
+    width:100%;
+    background-color: rgba(255, 235, 205, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 0.705);
+    font-size: 100px;
+}
+
+.right .overlay{
+    height:100% ;
+    width:100%;
+    background-color: rgba(128, 0, 128, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 100px
+}
